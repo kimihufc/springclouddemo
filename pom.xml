@@ -22,6 +22,7 @@
     <module>cloud-service</module>
     <module>cloud-provider-dept-hystrix</module>
     <module>cloud-consumer-hystrix-dashboard</module>
+    <module>cloud-zuul-gateway</module>
   </modules>
   <dependencyManagement>
     <dependencies>
