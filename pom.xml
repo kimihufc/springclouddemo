@@ -25,6 +25,8 @@
     <module>cloud-zuul-gateway</module>
     <module>cloud-config</module>
     <module>cloud-config-client</module>
+    <module>cloud-sleuth</module>
+    <module>cloud-provider-dept-sleuth</module>
   </modules>
   <dependencyManagement>
     <dependencies>
