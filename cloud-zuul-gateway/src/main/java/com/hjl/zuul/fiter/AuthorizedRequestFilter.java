@@ -21,6 +21,7 @@ public class AuthorizedRequestFilter extends ZuulFilter {
         // 在进行授权的头信息内容配置的时候加密的信息一定要与“Basic”之间有一个空格
         String authHeader = "Basic " + new String(encodedAuth);
         currentContext.addZuulRequestHeader("Authorization", authHeader);
+//        currentContext.setSendZuulResponse(false);  不进行路由
         return null;
     }
 
